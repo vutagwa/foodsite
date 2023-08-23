@@ -52,6 +52,7 @@ input{
 .login{
     background: transparent;
     border: none;
+    
 }
 .signup{
     background-color: #ff511c;
@@ -89,14 +90,21 @@ input{
     font-family: sans-serif;
     margin-bottom: 30px;
 }
-.content .content-left  button{
-    padding: 10px 23px;
-    background-color: #ff511c;
-    color: #ffffff;
-    border-radius: 5px;
-    border: none;
-    cursor: pointer;
+.content .content-left  .read-more{
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #ff511c;
+        color: #fff;
+        font-size: 19px;
+        text-decoration: none;
+        border-radius: 25px;
+        margin-top: 15px;
+        transition: 0.3 ease;
 }
+.about-content .read-more:hover{
+        background-color: #3e8e41;
+}
+
 .content .content-right{
     display: block;
     width: 300px;

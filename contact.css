@@ -1,0 +1,37 @@
+.nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+.nav .logo h1{
+    font-weight: 600;
+    font-family: sans-serif;
+    color: black;
+}
+.nav .logo b{
+    color: tomato;
+}
+.nav ul{
+    display: flex;
+    list-style: none;
+}
+.nav ul li{
+    margin-right: 30px;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: 500;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+.nav ul .active::after{
+    content: ' ';
+    width: 50%;
+    height: 3px;
+    background-color: #ff511c;
+    display: flex;
+    margin-left: 10px;
+}
