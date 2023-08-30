@@ -5,7 +5,7 @@
    font-family: 'Roboto', sans-serif; 
 }
 body{
-    background-color: #e7e1df;
+    background-color: #c1f4e1;
 }
 
 .nav{
@@ -29,11 +29,14 @@ body{
     font-family: sans-serif;
     font-size: 16px;
 }
+.nav .logo b{
+    color: rgb(29, 118, 21);
+}
 .nav ul .active::after{
     content: ' ';
     width: 50%;
     height: 3px;
-    background-color: #f14713;
+    background-color: #3df28b;
     display: flex;
     margin-left: 10px;
 }
@@ -71,7 +74,7 @@ body{
     color: #333
 }
 .about-content h2 span{
-    color: #f14713;
+    color: #075c3a;
 }
 .about-content p{
     font-size: 18px;
@@ -81,7 +84,7 @@ body{
 .about-content .read-more{
     display: inline-block;
     padding: 10px 20px;
-    background-color: #f14713;
+    background-color: #045f34;
     color: #fff;
     font-size: 19px;
     text-decoration: none;
@@ -90,7 +93,7 @@ body{
     transition: 0.3 ease;
 }
 .about-content .read-more:hover{
-    background-color: #f14713;
+    background-color: #29d540;
 }
 @media screen and (max-width: 768px) {
     .heading{

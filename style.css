@@ -5,7 +5,7 @@
 }
 body{
     margin: 0 100px;
-    background-color: #ffeae0;
+    background-color: #a3e4b5;
 }
 .nav{
     width: 100%;
@@ -20,7 +20,7 @@ body{
     color: black;
 }
 .nav .logo b{
-    color: tomato;
+    color: rgb(29, 118, 21);
 }
 .nav ul{
     display: flex;
@@ -40,7 +40,7 @@ body{
     content: ' ';
     width: 50%;
     height: 3px;
-    background-color: #ff511c;
+    background-color: #1cff8e;
     display: flex;
     margin-left: 10px;
 }
@@ -55,7 +55,7 @@ input{
     
 }
 .signup{
-    background-color: #ff511c;
+    background-color: #1c8511;
     color: #ffffff;
     outline: none;
     border: none;
@@ -93,16 +93,16 @@ input{
 .content .content-left  .read-more{
         display: inline-block;
         padding: 10px 20px;
-        background-color: #ff511c;
-        color: #fff;
+        background-color: #045f34;
+        color: #9ac6a8;
         font-size: 19px;
         text-decoration: none;
         border-radius: 25px;
         margin-top: 15px;
         transition: 0.3 ease;
 }
-.about-content .read-more:hover{
-        background-color: #3e8e41;
+.content .content-left .read-more:hover{
+        background-color: #18de1f;
 }
 
 .content .content-right{
@@ -113,6 +113,8 @@ input{
     width: 300px;
     height: auto;
     position: relative;
+    box-shadow: 0 20px 20px rgb(216, 233, 221);
+    border-radius: 100%;
     user-select: none;
     animation: rotate 10s linear infinite;
 }
@@ -124,70 +126,4 @@ input{
     100%{
         transform: rotate(360deg);
     }
-}
-.category{
-    width: 100%;
-    display: flex;
-    margin-bottom: 50px;
-    justify-content: center;
-}
-.category h3{
-    font-size: 20px;
-    font-weight: 600;
-    font-family: sans-serif;
-    margin-bottom: 70px;
-}
-.category .list-items{
-    width: 70px;
-    position: absolute;
-    margin-top: 100px;
-}
-
-.category .list-items .card-list{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-
-}
-.category .card-list .card{
-    width: 250px;
-    height: auto;
-    display: block;
-    padding: 1px;
-    border-radius: 10px;
-    position: relative;
-    background: #ffffff;
-    outline: 2px solid #faad96;
-}
-.category .card-list .card img{
-    width: 85px;
-    height: auto;
-    bottom: 120px;
-    left: 70px;
-    object-fit: cover;
-    object-position: center;
-    background-repeat: no-repeat;
-    position: absolute;
-    box-shadow: 0 10px 20px #faad96;
-    border-radius: 50%;
-}
-.category .card-list .card .food-title{
-    padding: 30px 0 30px;
-}
-.category .card-list .card .food-title h1{
-    text-align: center;
-    font-weight: bold;
-    font-size: 16px;
-    font-family: sans-serif;
-}
-.category .card .desc-food p{
-    font-size: 13px;
-    text-align: center;
-    font-weight: 500;
-    margin-bottom: 20px;
-    font-family: sans-serif;
-} 
-.category .card .price{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
 }

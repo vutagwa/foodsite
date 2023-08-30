@@ -1,5 +1,5 @@
 body{
-    background-color: beige;
+    background-color: rgb(200, 230, 197);
 }
 .nav{
     width: 100%;
@@ -14,7 +14,7 @@ body{
     color: black;
 }
 .nav .logo b{
-    color: tomato;
+    color: rgb(29, 118, 21);
 }
 .nav ul{
     display: flex;
@@ -34,7 +34,7 @@ body{
     content: ' ';
     width: 50%;
     height: 3px;
-    background-color: #ff511c;
+    background-color: #109240;
     display: flex;
     margin-left: 10px;
 }
@@ -63,7 +63,7 @@ body{
     padding: 5px 30px;
     border: none;
     outline: none;
-    background-color: #ff511c;
+    background-color: #056116;
     color: white;
     cursor: pointer;
     border-radius: 4px;
